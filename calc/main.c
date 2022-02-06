@@ -1,16 +1,16 @@
 #include <stdio.h>
 #include <Windows.h>
 #include <stdlib.h>
+#include <string.h>
 
 int main() {
     SetConsoleTitle("C calc");
     int value1;
     int value2;
     int output;
-    char checkforexit[10];
+    int checkforexit[10];
     printf("how to use:\n");
     printf("add two values must be numbers to get output\n");
-    printf("type e after the output if u want to exit\n");
     getchar();
     while (TRUE)
     {
