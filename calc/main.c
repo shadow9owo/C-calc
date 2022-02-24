@@ -6,6 +6,7 @@
 
 ///a basic C calculator
 ///by shadowdev
+///check out www.shadowstudios.gd.rf
 
 int main() {
     SetConsoleTitle("C calculator");
@@ -15,7 +16,7 @@ int main() {
     printf("how to use:\n");
     printf("add two values must be numbers to get output\n");
     printf("created by shadowdev on github: https://github.com/shadow9owo\n");
-    getchar();
+    Sleep(2000);
     while (TRUE)
     {
        system("cls||clear");
@@ -26,6 +27,6 @@ int main() {
        output = value1 + value2;
        printf("output:\n");
        printf("%d \n",output);
-       Sleep(2000);
+       Sleep(1000);
     }
 }
